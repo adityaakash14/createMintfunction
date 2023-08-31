@@ -1,1 +1,1 @@
-
+The `MyModifiedToken` contract represents a basic Ethereum token. It has a name ("AAV"), a symbol ("AAV"), and a total supply of 10,000 tokens. The contract utilizes a mapping to track token balances for different addresses. It features a `mint` function to create new tokens for a specified account by increasing the total supply and the account's balance. This contract serves as an educational example for understanding token creation and balance tracking on the Ethereum blockchain.
