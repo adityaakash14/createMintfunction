@@ -17,5 +17,11 @@ contract MyModifiedToken {
         balances[_account] += _amount;
     }
 
-    
+    // burn function
+    function burn(address _account, uint _amount) public {
+        if (balances[_account] >= _amount) {
+            totalSupply -= _amount;
+            balances[_account] -= _amount;
+        }
+    }
 }
